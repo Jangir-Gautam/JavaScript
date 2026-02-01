@@ -71,10 +71,46 @@ Object
 Operators and Conditional Statements:
 ??
 
-.Arithmetic Operators:
+.Arithmetic Operators: mathematic calculation
 
 +, -, *, /
-Modulus
-Exponentiation
-Increment
-Decrement
+Modulus %
+Exponentiation **
+Increment ++
+Decrement --
+
+.Assignment Operations: 
+=, +=, -=, *=, %=, **=
+
+.comparison operations:
+==, ===, !=, !==
+<, <=, >, >=
+
+.logical operations
+AND &&, OR ||, NOT !
+
+.conditional statements: to implement some condition in the code
+if 
+if-else
+else-if
+
+.ternary operations: condition ? trueOutput : falseOutput ;
+
+// ALERT ("HELLO !") -- ONE TIME POP UP .
+// PROMPT ("ENTER YOUR NAME !") -- TEMP WAY TO TAKE INPUT FROM USERS.
+
+// SWITCH : ----
+const expr = "Papa";
+switch (expr) {
+
+case "Mama":
+      console.log("mama is here");
+      break;
+case "Didi":
+case "Papa":
+      console.log("papa, didi is here");
+      break;
+default:
+      console.log("No one is here");
+      
+      
