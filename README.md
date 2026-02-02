@@ -112,5 +112,14 @@ case "Papa":
       break;
 default:
       console.log("No one is here");
+
+Loops 
+.for loop
+.while loop
+.for of
+.for in 
+
+String Methods
+// while see tomorrow, and done till 5 feb as per schedule 
       
       
