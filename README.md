@@ -87,7 +87,9 @@ Decrement --
 <, <=, >, >=
 
 .logical operations
-AND &&, OR ||, NOT !
+AND &&, 
+OR ||, 
+NOT !
 
 .conditional statements: to implement some condition in the code
 if 
@@ -120,6 +122,23 @@ Loops
 .for in 
 
 String Methods
-// while see tomorrow, and done till 5 feb as per schedule 
-      
+// while see tomorrow, and done till 5 feb as per schedule      
+
+you aree given an integer array nums of length n. An array is trionic, if there exist indices 0<p<q<n-1 such that , 
+. nums[0.....p] is strictly increasing 
+. nums[p....q] is strictly decreasing
+. nums[q....n-1] is strictly increasing 
+return true, if nums is trionic/otherwise false
+[0....p][p....q][q......n-1]
+
+
+var isTrionic = function(nums)
+const n = nums.length;
+for ( let p=1; p<n-2; p++1){
+for ( let q=p+1; q<n-1; q++){
+ let valid = true;
+ for (let i=0; i<p; i++){
+ if(nums[i] >= nums[i+1]){
+  valid = false;
+  
       
