@@ -116,10 +116,41 @@ default:
       console.log("No one is here");
 
 Loops 
+// never create a infinite loop 
+
 .for loop
+
+for ( let count = 1; count <= 5; count++){
+console.log("Apna college");
+}
+
 .while loop
+
+i = 1;  //initialation
+while(i<=5){
+console.log(Apna College);
+i++;
+}
+
+.do while loop
+
 .for of
-.for in 
+
+let str = "GautamJangir";
+for(let i of str){
+console.log(i);
+}
+
+.for in   // returns keys
+
+let student = {
+name : "gautam jangir",
+age : 21,
+cgpa : 7.01 };
+
+for(let i in student){
+console.log(i);
+}
 
 String Methods
 // while see tomorrow, and done till 5 feb as per schedule      
