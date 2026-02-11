@@ -152,6 +152,21 @@ for(let i in student){
 console.log(i);
 }
 
+#Game 
+// Guess the correct number
+let gameNum = 24;
+let userNum = prompt("Guess a Num:");
+
+while(userNum!=gameNum){
+    if(userNum > gameNum){
+     userNum =prompt("Guess something smaller");
+    }else if(userNum<gameNum) {
+     userNum = prompt("Guess something bigger");
+    }
+}
+console.log("Congratulation, you enter the right number");
+
+
 String Methods
 // while see tomorrow, and done till 5 feb as per schedule      
 
