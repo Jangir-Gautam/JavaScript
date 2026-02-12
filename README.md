@@ -168,7 +168,17 @@ console.log("Congratulation, you enter the right number");
 
 
 String Methods
-// will start today.... while see tomorrow, and done till 5 feb as per schedule      
+// these are built-in functions to manipulate a string 
+
+.str.toUpperCase()
+.str.toLowerCase()
+.str.trim() //removes whiteshapes
+.str.slice(start,end?) //returns part of string 
+.str1.concat(str2) //joins str2 with str1.
+.str.replace(searchVal, newVal)
+.str.charAt(idx)
+
+
 
 you aree given an integer array nums of length n. An array is trionic, if there exist indices 0<p<q<n-1 such that , 
 . nums[0.....p] is strictly increasing 
